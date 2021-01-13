@@ -1,0 +1,51 @@
+/* Estoy usando de referencia el ejemplo que ha puesto el profe */
+
+/* puedo usar las variables guardadas en modul y en _parcial al usar el import aqui */
+
+/* module: no inserta el scss, pero puedo hacer uso de sus variables, mixins y extends */
+@import "modul";
+
+/* partial: inserta el scss aqui*/
+@import "parcial";
+
+/*--- Mixin ---*/
+/* 
+Aqui se pueden crear funciones las cuales recibiran ciertos valores
+y crearan los cosas con esos valores, por ejemplo:
+@mixin pintar($color, $estil) {
+    color: $color;
+    text-decoration: $estil;
+}
+*/
+/*-------------*/
+
+/*--- Extend ---*/
+/*
+Aqui se crean conjuntos de caracteristicas que pueden estar en comun
+en varios sitios a la vez, por ejemplo:
+%display-flex {
+    display: flex;
+    flex-direction: column;
+}
+*/
+/*--------------*/
+
+/*--- (1) Variables ---*/
+// Aqui se crean variables generales para usar
+$color1: #4b4b4b;
+$color2: #f0f2c9;
+$valor1: 86px;
+
+/*---------------------*/
+
+/*--- Nesting ---*/
+// No se que es
+
+/*---------------*/
+
+/*--- Mixin, Operaciones ---*/
+/*
+Creo que aqui es donde hay que poner las
+clases y las id con las respectivas variables
+*/
+/*--------------------------*/
